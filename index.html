@@ -4,25 +4,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
-    <header class="container">
-        <img src="img/avatar-perfil.png" alt="avatar do carlos" srcset="">
-        <p>Eu sou o breno</p>
-        <h1>Eu estudo no medio</h1>
-        <p>Sou estudante e estou focado no meu projeto de vida!</p>
+    <header>
+        <img src="img/avatar-perfil.png" alt="avatar do Breno" srcset="">
+        <p>Eu sou Breno_</p>
+        <h1>Eu sou Desenvolvedor de Jogos</h1>
+        <p>Sou apaixonado por criar experiências interativas e educativas através de jogos digitais.</p>
         <p>Minhas habilidades</p>
         <div>
-            <p>HTML</p>
-            <p>CSS</p>
+            <p>Unity</p>
+            <p>C#</p>
+            <p>HTML5</p>
             <p>JavaScript</p>
-            <p>Scratch</p>
         </div>
     </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de jogo educativo">
+                    <div class="card-body">
+                        <h5 class="card-title">Aventuras Matemáticas: Um Jogo Educativo</h5>
+                        <p class="card-text">Este projeto é um jogo interativo que ensina conceitos matemáticos básicos
+                            através de desafios e puzzles. Os jogadores devem resolver problemas para avançar em uma
+                            história envolvente, tornando o aprendizado divertido e dinâmico.
+                        </p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de jogo de aventura">
+                    <div class="card-body">
+                        <h5 class="card-title">Exploradores do Espaço: Uma Aventura Intergaláctica</h5>
+                        <p class="card-text">Neste jogo, os jogadores assumem o papel de exploradores espaciais que
+                            viajam por diferentes planetas, resolvendo enigmas e coletando recursos para salvar sua
+                            galáxia. O jogo combina elementos de aventura e estratégia.
+                        </p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de jogo de simulação">
+                    <div class="card-body">
+                        <h5 class="card-title">Simulador de Cidades: Construa e Gerencie</h5>
+                        <p class="card-text">Um jogo de simulação onde os jogadores podem construir e gerenciar sua
+                            própria cidade. Eles devem equilibrar recursos, atender às necessidades dos cidadãos e
+                            enfrentar desafios como desastres naturais e crises econômicas.
+                        </p>
+                        <button type="button" class="btn btn-link">Veja o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Aventuras Matemáticas: Um Jogo Educativo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto "Aventuras Matemáticas" é um jogo desenvolvido com Unity e C#, projetado para
+                        ensinar conceitos matemáticos de forma divertida. Os jogadores enfrentam desafios que
+                        exigem raciocínio lógico e habilidades matemáticas para progredir na história.</p>
+                    <p>A interface é amigável e colorida, atraindo a atenção dos jogadores mais jovens. O jogo
+                        inclui diferentes níveis de dificuldade, permitindo que os jogadores avancem conforme
+                        melhoram suas habilidades.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Aventuras Matemáticas">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://exemplo.com/projeto1">Ver projeto ao vivo</a>
+                    <a href="https://github.com/exemplo/projeto1">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Exploradores do Espaço: Uma Aventura Intergaláctica</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto "Exploradores do Espaço" é um jogo de aventura que leva os jogadores a uma
+                        jornada intergaláctica. Com gráficos impressionantes e uma narrativa envolvente, os
+                        jogadores devem resolver enigmas e coletar recursos para salvar sua galáxia.</p>
+                    <p>O jogo utiliza mecânicas de exploração e estratégia, permitindo que os jogadores tomem
+                        decisões que afetam o desenrolar da história. A interatividade e a imersão são
+                        características principais deste projeto.</p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto Exploradores do Espaço">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://exemplo.com/projeto2">Ver projeto ao vivo</a>
+                    <a href="https://github.com/exemplo/projeto2">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Simulador de Cidades: Construa e Gerencie</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O "Simulador de Cidades" é um jogo de simulação onde os jogadores podem construir e
+                        gerenciar sua própria cidade. Eles enfrentam desafios como desastres naturais e crises
+                        econômicas, enquanto tentam manter seus cidadãos felizes e satisfeitos.</p>
+                    <p>O jogo combina elementos de estratégia e gerenciamento, permitindo que os jogadores
+                        experimentem a complexidade de administrar uma cidade. Com gráficos atraentes e uma
+                        jogabilidade envolvente, este projeto é ideal para quem gosta de desafios.</p>
+                    <img src="img/projeto-3.png" alt="Imagem representativa do projeto Simulador de Cidades" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://exemplo.com/projeto3">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/seu-usuario">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Breno</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
